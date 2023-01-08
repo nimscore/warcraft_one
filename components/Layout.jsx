@@ -55,9 +55,15 @@ const Layout = ({ title, description = '', children}) => {
 						<p>Nims</p>
 						<div className="author_info">
 							<div>
-								<img src='/img/mastodon.png' alt='mastodon' />
-								<Link href='https://toot.warcraft.one/@nims'>
-									@nims
+								<img src='/img/donate.png' alt='donate' />
+								<Link href='https://boosty.to/nims'>
+									Boosty
+								</Link>
+							</div>
+							<div>
+								<img src='/img/donate.png' alt='donate' />
+								<Link href='https://www.donationalerts.com/r/nimsi'>
+									DonationAlerts
 								</Link>
 							</div>
 							<div>
@@ -67,16 +73,16 @@ const Layout = ({ title, description = '', children}) => {
 							</Link>
 							</div>
 							<div>
-								<img src='/img/donate.png' alt='donate' />
-								<Link href='https://www.donationalerts.com/r/nimsi'>
-									DonationAlerts
+								<img src='/img/mastodon.png' alt='mastodon' />
+								<Link href='https://toot.warcraft.one/@nims'>
+									@nims
 								</Link>
 							</div>
 							<div>
-								<img src='/img/donate.png' alt='donate' />
-								<Link href='https://boosty.to/nims'>
-									Boosty
-							</Link>
+								<img src='/img/about.png' alt='about' />
+								<Link href='/'>
+									About
+								</Link>
 							</div>
 						</div>
 						<p>&copy; WARCRAFT.ONE</p>
