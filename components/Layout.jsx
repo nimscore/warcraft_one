@@ -22,32 +22,32 @@ const Layout = ({ title, description = '', children}) => {
 			<div className="container">
 				<div className="containerMain">
 					<img  src='/img/logo.png' alt='logo' />
-					<ul className="main_ul">
-						<li>
+					<div className="main_ul">
+						<div>
 							<img src='/img/overview.png' alt='overview' />
 							<Link href='/'>
 								Overview
 							</Link>
-						</li>
-						<li>
+						</div>
+						<div>
 							<img src='/img/guide.png' alt='guide' />
 							<Link href='/'>
 								Brew Guide
 							</Link>
-						</li>
-						<li>
+						</div>
+						<div>
 							<img src='/img/mastodon.png' alt='mastodon' />
 							<Link href='https://toot.warcraft.one/about'>
 								Mastodon
 							</Link>
-						</li>
-						<li>
+						</div>
+						<div>
 							<img src='/img/discord.png' alt='discord' />
 							<Link href='https://discord.gg/cCsfEzc'>
 								Discord
 							</Link>
-						</li>
-					</ul>
+						</div>
+					</div>
 					<div className="off_ul">
 						<p>by</p>
 						<img className="avatar"
