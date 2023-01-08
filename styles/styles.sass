@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap')
+
+$body_bg: #141627
+$tab_bg: #1c1f37
+$bx: 0 0 .78vw 0.1vw rgba(0, 0, 0, 0.6)
+
+html,
+body
+  background-color: $body_bg
+  padding: 0
+  margin: 0
+  font-family: 'Montserrat', sans-serif
+  overflow: hidden
+
+h1,
+h2,
+h3
+  color: #d0d4e7
+  text-transform: uppercase
+  text-decoration: none
+  font-weight: inherit
+  margin: 0
+
+h1
+  font-size: 2.1vw
+  font-family: MontserratBlack, sans-serif
+  font-weight: 900
+  padding: 0
+
+h2
+  font-size: 1.4vw
+  font-family: MontserratBold, sans-serif
+  font-weight: 700
+  padding: 0 0 0 1vw
+
+h3
+  font-size: 1vw
+  font-family: MontserratBold, sans-serif
+  font-weight: 700
+  padding: 0
+
+h3 a
+  font-size: 1vw
+  font-family: MontserratBold, sans-serif
+  font-weight: 700
+  padding: 0
+
+a
+  text-decoration: none
+  color: #65687e
+  font-size: 0.8vw
+  line-height: 1.2vw
+  font-family: Montserrat, sans-serif
+  font-weight: 500
+
+p
+  color: #5d607a
+  font-family: Montserrat, sans-serif
+  font-size: 0.8vw
+  line-height: 1.2vw
+  font-weight: 500
+  margin: 0
+  padding: 0
+
+li
+  color: #5d607a
+  font-family: Montserrat, sans-serif
+  font-size: 0.8vw
+  line-height: 1.2vw
+  font-weight: 500
+  margin: 0
+  padding: 0
+
+wb
+  color: #bbb192
+  font-family: MontserratBold, sans-serif
+  font-weight: 700
+
+code
+  font-family: Montserrat, sans-serif
+  font-weight: 500
+  font-size: 0.8vw
+  line-height: 1.2vw
+
+format-code
+  background-color: #032121
+  border: 0.1vw solid #5d607a
+  padding: 0.5vw
+  color: #5d607a
+  font-family: Montserrat, sans-serif
+  font-weight: 500
+  font-size: 0.7vw
+  margin: 0.5vw 0 0.5vw 0
+
+.container
+  width: 100%
+  height: 100%
+  display: flex
+
+  >.containerMain
+    width: 10%
+    height: 100vh
+    align-items: center
+    >img
+      max-width: 120px
+      margin: 1vw 3vw
+    >.main_ul
+      > li
+        margin-bottom: .8vw
+        > a
+          font-weight: 700
+          font-size: 1vw
+        > img
+          max-width: 32px
+          margin-right: 0.2vw
+          margin-bottom: -.3vw
+    >.off_ul
+      position: fixed
+      bottom: 1vw
+      left: 1.3vw
+      text-align: center
+      >img
+        max-width: 120px
+        border-radius: 90%
+      >p
+        font-weight: 700
+      >.author_info
+        margin-top: .4vw
+        >div
+          margin-bottom: .4vw
+          >a
+            font-weight: 700
+          >img
+            max-width: 32px
+            margin-right: .2vw
+            margin-bottom: -.4vw
+
+  >.containerWindow
+    z-index: 10
+    width: 90%
+    margin: 1vw
+    background-color: $tab_bg
+    border-radius: 18px
+    box-shadow: $bx
+
+    >.cWcontent
+      margin: 1vw
