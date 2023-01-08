@@ -2,17 +2,17 @@ import Layout from "../components/Layout";
 
 export default function Home({posts}) {
   return (
-    <Layout title='Главная'>
-      <h1>интересные гайды на хмелевара</h1>
-      <div className="posts">
-        {/*{posts.map(post => (*/}
-        {/*  <BlogItem*/}
-        {/*    key={post.id}*/}
-        {/*    title={post.title}*/}
-        {/*    description={post.body}*/}
-        {/*    id={post.id} />*/}
-        {/*))}*/}
-      </div>
+    <Layout title='WARCRAFT'>
+      {/*<h1>Последние новости</h1>*/}
+      {/*<div className="posts">*/}
+      {/*  {posts.map(post => (*/}
+      {/*    <BlogItem*/}
+      {/*      key={post.id}*/}
+      {/*      title={post.title}*/}
+      {/*      description={post.body}*/}
+      {/*      id={post.id} />*/}
+      {/*  ))}*/}
+      {/*</div>*/}
     </Layout>
   )
 }

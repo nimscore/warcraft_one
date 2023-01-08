@@ -7,8 +7,8 @@ const Layout = ({ title, description = '', children}) => {
 		<>
 			
 			<Head>
-				<title>{title} || Brewmaster Guid</title>
-				<link rel="icon" href="/img/favicon.png" type="image/png" />
+				<title>{title} | MONK HUB</title>
+				<link rel="icon" href="/img/logo.png" type="image/png" />
 				<meta
 					name='description'
 					content={description || 'Гайды на хмелевара'}
@@ -31,8 +31,8 @@ const Layout = ({ title, description = '', children}) => {
 						</div>
 						<div>
 							<img src='/img/guide.png' alt='guide' />
-							<Link href='/'>
-								Brew Guide
+							<Link href='/guide/intro'>
+								Brewmaster
 							</Link>
 						</div>
 						<div>
@@ -49,7 +49,6 @@ const Layout = ({ title, description = '', children}) => {
 						</div>
 					</div>
 					<div className="off_ul">
-						<p>by</p>
 						<img className="avatar"
 						     src='/img/avatar.png'
 						     alt='avatar' />
@@ -86,7 +85,7 @@ const Layout = ({ title, description = '', children}) => {
 				
 				<div className="containerWindow">
 					<div className="cWcontent">
-
+						{children}
 					</div>
 				</div>
 			</div>
