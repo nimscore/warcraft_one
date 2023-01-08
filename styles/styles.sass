@@ -96,16 +96,17 @@ format-code
   width: 100%
   height: 100%
   display: flex
+  text-align: center
 
   >.containerMain
     width: 10%
     height: 100vh
-    align-items: center
     >img
       max-width: 120px
-      margin: 1vw 3vw
+      margin: 1vw 0
     >.main_ul
-      margin-left: 1.8vw
+      text-align: left
+      margin-left: 1vw
       > div
         margin-bottom: 1vw
         > a
@@ -118,14 +119,14 @@ format-code
     >.off_ul
       position: fixed
       bottom: 1vw
-      left: 1.5vw
-      text-align: center
+      left: 1vw
       >img
         max-width: 120px
         border-radius: 90%
       >p
         font-weight: 700
       >.author_info
+        text-align: left
         margin-top: .4vw
         >div
           margin-bottom: .4vw
@@ -141,10 +142,9 @@ format-code
     width: 90%
     //max-height: 96.8vh
     overflow: hidden
-    margin: 1vw
+    margin: 1vw 1vw 1vw 0
     background-color: $tab_bg
-    border-radius: 18px
+    border-radius: 16px
     box-shadow: $bx
-
     >.cWcontent
       margin: 1vw

@@ -85,7 +85,7 @@ const Layout = ({ title, description = '', children}) => {
 				
 				<div className="containerWindow">
 					<div className="cWcontent">
-						{children}
+					
 					</div>
 				</div>
 			</div>
