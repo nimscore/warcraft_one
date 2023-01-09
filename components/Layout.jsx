@@ -90,9 +90,68 @@ const Layout = ({ title, description = '', children}) => {
 				</div>
 				
 				<div className="containerWindow">
-					<div className="cWcontent">
 					
+					<div className="cWcontent">
+						<div className="head_page">
+							<div className="block_1">
+								<h2>Введение</h2>
+							</div>
+							<div className="block_2">
+								<h2>dragonflight 10.5</h2>
+							</div>
+							<div className="block_3">
+								<h2>11 января 2023</h2>
+							</div>
+						</div>
+						
+						<div className="guide_content">
+							<div className="r_space">
+								<div className="line_1">
+									<div className="block_11">
+									11
+									</div>
+									<div className="block_12">
+									12
+									</div>
+									<div className="block_13">
+									13
+									</div>
+								</div>
+								
+								<div className="line_2">
+									<div className="block_21">
+									21
+									</div>
+									<div className="block_22">
+									22
+									</div>
+								</div>
+								
+								<div className="line_3">
+									<div className="block_31">
+									31
+									</div>
+									<div className="block_32">
+									32
+									</div>
+									<div className="block_33">
+									33
+									</div>
+								</div>
+							</div>
+							
+							<div className="l_space">
+								<div className="block_41">
+								41
+								</div>
+								<div className="block_42">
+								42
+								</div>
+							</div>
+						</div>
+						
 					</div>
+					
 				</div>
 			</div>
 		
