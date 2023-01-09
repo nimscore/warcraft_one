@@ -278,21 +278,25 @@ format-code {
   display: flex;
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_3 > .block_31 {
+  text-align: left;
   background-color: #141627;
   border-radius: 8px;
-  padding: 0.6vw 3vw;
+  padding: 1vw;
   box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_3 > .block_32 {
+  text-align: left;
   background-color: #141627;
   border-radius: 8px;
-  padding: 0.6vw 3vw;
+  padding: 1vw;
+  margin: 0 1vw;
   box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_3 > .block_33 {
+  text-align: left;
   background-color: #141627;
   border-radius: 8px;
-  padding: 0.6vw 3vw;
+  padding: 1vw;
   box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent > .guide_content > .l_space {
