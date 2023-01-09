@@ -218,7 +218,6 @@ format-code {
   display: flex;
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space {
-  margin-top: 1vw;
   width: 75%;
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_1 {
@@ -227,19 +226,27 @@ format-code {
   display: flex;
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_1 > .block_11 {
+  width: 200%;
+  text-align: left;
   background-color: #141627;
   border-radius: 8px;
-  padding: 0.6vw 3vw;
+  padding: 1vw;
+  box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_1 > .block_12 {
+  text-align: left;
   background-color: #141627;
   border-radius: 8px;
-  padding: 0.6vw 3vw;
+  padding: 1vw;
+  margin: 0 1vw;
+  box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_1 > .block_13 {
+  text-align: left;
   background-color: #141627;
   border-radius: 8px;
-  padding: 0.6vw 3vw;
+  padding: 1vw;
+  box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_2 {
   text-align: center;
@@ -248,14 +255,21 @@ format-code {
   display: flex;
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_2 > .block_21 {
+  text-align: left;
   background-color: #141627;
   border-radius: 8px;
-  padding: 0.6vw 3vw;
+  padding: 1vw;
+  margin: 0 0.5vw 0 0;
+  box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_2 > .block_22 {
+  width: 280%;
+  text-align: left;
   background-color: #141627;
   border-radius: 8px;
-  padding: 0.6vw 3vw;
+  padding: 1vw;
+  margin: 0 0 0 0.5vw;
+  box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_3 {
   text-align: center;
@@ -267,34 +281,40 @@ format-code {
   background-color: #141627;
   border-radius: 8px;
   padding: 0.6vw 3vw;
+  box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_3 > .block_32 {
   background-color: #141627;
   border-radius: 8px;
   padding: 0.6vw 3vw;
+  box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent > .guide_content > .r_space > .line_3 > .block_33 {
   background-color: #141627;
   border-radius: 8px;
   padding: 0.6vw 3vw;
+  box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent > .guide_content > .l_space {
   text-align: center;
   justify-content: space-between;
-  margin-top: 1vw;
   margin-left: 1vw;
   width: 25%;
 }
 .container > .containerWindow > .cWcontent > .guide_content > .l_space > .block_41 {
+  text-align: left;
   background-color: #141627;
   border-radius: 8px;
-  padding: 0.6vw 3vw;
+  padding: 1vw;
+  box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent > .guide_content > .l_space > .block_42 {
+  text-align: left;
   margin-top: 1vw;
   background-color: #141627;
   border-radius: 8px;
-  padding: 0.6vw 3vw;
+  padding: 1vw;
+  box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 
 /*# sourceMappingURL=styles.css.map */
