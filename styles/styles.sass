@@ -101,9 +101,17 @@ format-code
   >.containerMain
     width: 10%
     height: 100vh
+
+    @media only screen and (max-width: 1440px)
+      width: 11%
+
     >img
       max-width: 120px
       margin: 1vw 0
+
+      @media only screen and (max-width: 1440px)
+        max-width: 80px
+
     >.main_ul
       text-align: left
       margin-left: 1vw
@@ -116,6 +124,8 @@ format-code
           max-width: 32px
           margin-right: 0.2vw
           margin-bottom: -.3vw
+          @media only screen and (max-width: 1440px)
+            max-width: 24px
     >.off_ul
       position: fixed
       bottom: 1vw
@@ -123,6 +133,8 @@ format-code
       >img
         max-width: 100px
         border-radius: 90%
+        @media only screen and (max-width: 1440px)
+          max-width: 70px
       >p
         font-weight: 700
       >.author_info
@@ -136,6 +148,8 @@ format-code
             max-width: 32px
             margin-right: .2vw
             margin-bottom: -.4vw
+            @media only screen and (max-width: 1440px)
+              max-width: 20px
 
   >.containerWindow
     z-index: 10
