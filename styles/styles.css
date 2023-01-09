@@ -193,6 +193,21 @@ format-code {
 .container > .containerWindow > .cWcontent {
   margin: 1vw;
 }
+.container > .containerWindow > .cWcontent > .arrow_r {
+  max-width: 32px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  cursor: pointer;
+}
+.container > .containerWindow > .cWcontent > .arrow_l {
+  max-width: 32px;
+  position: absolute;
+  top: 50%;
+  left: 10vw;
+  transform: rotate(3.14159rad);
+  cursor: pointer;
+}
 .container > .containerWindow > .cWcontent > .head_page {
   display: flex;
   width: 100%;
