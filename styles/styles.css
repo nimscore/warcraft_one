@@ -188,7 +188,7 @@ format-code {
   margin: 1vw 1vw 1vw 0;
   background-color: #1c1f37;
   border-radius: 16px;
-  box-shadow: 0 0 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 }
 .container > .containerWindow > .cWcontent {
   margin: 1vw;
