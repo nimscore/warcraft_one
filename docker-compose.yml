@@ -1,6 +1,0 @@
-version: '3'
-services:
-  warcraft:
-    container_name: warcraft
-    build:
-      context: ./
