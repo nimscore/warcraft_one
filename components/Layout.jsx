@@ -31,7 +31,7 @@ const Layout = ({ title, description = '', children}) => {
 						</div>
 						<div>
 							<img src='/img/guide.png' alt='guide' />
-							<Link href='/guide/intro'>
+							<Link href='/guide/brm/intro'>
 								Brewmaster
 							</Link>
 						</div>
