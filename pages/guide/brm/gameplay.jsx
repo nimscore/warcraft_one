@@ -9,7 +9,7 @@ const gameplay = () => {
 			<Link className="arrow_l" href='/guide/brm/intro'>
 				<Image src='/img/arrow.png' width={32} height={32} alt='arrow'/>
 			</Link>
-			<Link className="arrow_r" href='/'>
+			<Link className="arrow_r" href='/guide/brm/intro'>
 				<Image src='/img/arrow.png' width={32} height={32} alt='arrow'/>
 			</Link>
 			

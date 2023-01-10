@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 
 const Layout = ({ title, description = '', children}) => {
@@ -21,7 +22,9 @@ const Layout = ({ title, description = '', children}) => {
 			
 			<div className="container">
 				<div className="containerMain">
-					<img  src='/img/logo.png' alt='logo' />
+					<Link className="logo" href='/'>
+						<Image src='/img/logo.png' width={120} height={120} alt='logo'/>
+					</Link>
 					<div className="main_ul">
 						<div>
 							<img src='/img/overview.png' alt='overview' />
