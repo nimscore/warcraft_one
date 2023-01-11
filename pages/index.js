@@ -1,9 +1,5 @@
 import Layout from "../components/Layout";
 
 export default function Home() {
-  return (
-    <Layout title='WARCRAFT'>
-    
-    </Layout>
-  )
+	return <Layout title="WARCRAFT"></Layout>;
 }
