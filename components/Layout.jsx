@@ -21,7 +21,7 @@ const Layout = ({ title, description = "", children }) => {
 			<div className="container">
 				<div className="containerMain">
 					<Link className="logo" href="/">
-						<Image src="/img/logo.png" width={120} height={120} alt="logo" />
+						<img src="/img/logo.png" alt="logo" />
 					</Link>
 					<div className="main_ul">
 						<div>
