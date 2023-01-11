@@ -1,6 +1,12 @@
-$body_bg: #141627;
-$tab_bg: #1c1f37;
-$bx: 0 0 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
+$body_bg: rgba(
+	$color: #160f28,
+	$alpha: 0.95,
+);
+$tab_bg: rgba(
+	$color: #201538,
+	$alpha: 1,
+);
+$bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 $bx_tab: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 
 .cWcontent {
@@ -144,6 +150,7 @@ $bx_tab: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 			.block_41 {
 				text-align: left;
 				background-color: $body_bg;
+
 				border-radius: 8px;
 				padding: 1vw;
 				box-shadow: $bx_tab;
