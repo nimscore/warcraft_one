@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Index.module.scss";
+import Tab from "../../Tab";
+import Menu from "../BrewMenu";
 
 const IntroIndex = () => {
 	return (
@@ -8,20 +10,19 @@ const IntroIndex = () => {
 			<Link className={styles.arrow_r} href="/guide/brm/intro/1">
 				<Image src="/img/arrow.png" width={32} height={32} alt="arrow" />
 			</Link>
-
 			<div className={styles.head_page}>
-				<div className={styles.block_1}>
-					<h2>Введение. Обновление 10.5</h2>
-				</div>
-				<div className={styles.block_2}>
-					<h2>dragonflight 10.5</h2>
-				</div>
+				<Tab>
+					<h2>Введение</h2>
+				</Tab>
+				<Tab>
+					<Menu />
+				</Tab>
 			</div>
 
 			<div className={styles.guide_content}>
 				<div className={styles.r_space}>
 					<div className={styles.line_1}>
-						<div className={styles.block_11}>
+						<Tab>
 							<p>
 								Lorrgs – удобный сайт для быстрого анализа бурстов и кулдаунов
 								на боссах. Он позволяет посмотреть первые топ 50 логов на любом
@@ -32,25 +33,25 @@ const IntroIndex = () => {
 								достаточно много времени, особенно если вы в первый раз пришли
 								на босса.
 							</p>
-						</div>
-						<div className={styles.block_12}>
+						</Tab>
+						<Tab>
 							<p>
 								RaidBots – cпециальная утилита для оптимизации вашего персонажа.
 								Позволяет сравнить ваше снаряжение и многое другое для повышения
 								вашего урона, основываясь на симуляции боев с одной или
 								несколькими целями.
 							</p>
-						</div>
-						<div className={styles.block_13}>
+						</Tab>
+						<Tab>
 							<p>
 								Subcreation – быстро посмотреть статистику по экипировке,
 								талантам и всему-всему как с ключей, так и с рейдов.
 							</p>
-						</div>
+						</Tab>
 					</div>
 
 					<div className={styles.line_2}>
-						<div className={styles.block_21}>
+						<Tab>
 							<p>
 								Хмелевар - крайне мобильный танк, который сочетает в себе
 								пассивное уменьшение входящего урона, мощную коллекцию атакующих
@@ -76,19 +77,19 @@ const IntroIndex = () => {
 								несколько компенсирует это в совместных активностях, где обычно
 								на вас накладываются исцеляющие эффекты (хоты) от лекарей.
 							</p>
-						</div>
-						<div className={styles.block_22}>
+						</Tab>
+						<Tab>
 							<p>БЛИЖАЙШИЕ ОБНОВЛЕНИЯ:</p>
 							<p>
 								Подробное описание талантов; Возвращение раздела c разбором
 								способностей; Возвращение раздела с нюансами рейда Хранилище
 								Воплощений.
 							</p>
-						</div>
+						</Tab>
 					</div>
 
 					<div className={styles.line_3}>
-						<div className={styles.block_31}>
+						<Tab>
 							<p>
 								В первом сезоне Dragonflight разработчики хотели сделать сетовые
 								бонусы, которые влияют на вашу игру минимально и их наличие или
@@ -96,27 +97,27 @@ const IntroIndex = () => {
 								Поддерживайте на себе 4 стака эффекта Ритм Хмелевара и все.
 								Лишним не будет.
 							</p>
-						</div>
-						<div className={styles.block_32}>
+						</Tab>
+						<Tab>
 							<p>
 								2 предмета: нанесенные удар по врагу с помощью Лапа тигра или
 								Танцующий журавль дают вам эффект Ритм Хмелевара, который
 								увеличивает исходящий и уменьшает входящий урон на 1% на 15 сек.
 								Суммируется до 4х раз.
 							</p>
-						</div>
-						<div className={styles.block_33}>
+						</Tab>
+						<Tab>
 							<p>
 								4 предмета: за каждый наложенный на вас эффект Ритма Хмелевара,
 								Очищающий отвар снимает на 3% больше урона, отложенного в
 								Пошатывание.
 							</p>
-						</div>
+						</Tab>
 					</div>
 				</div>
 
 				<div className={styles.l_space}>
-					<div className={styles.block_41}>
+					<Tab>
 						<p>СИЛЬНЫЕ СТОРОНЫ:</p>
 						<p>
 							+ Пошатывание, Скрытые резервы, Очищающий отвар и Божественный
@@ -130,8 +131,8 @@ const IntroIndex = () => {
 							Способности для контроля противников, такие как: Круговой удар
 							ногой и Паралич;
 						</p>
-					</div>
-					<div className={styles.block_42}>
+					</Tab>
+					<Tab>
 						<p>СЛАБЫЕ СТОРОНЫ:</p>
 						<p>
 							- Количество здоровья. Хмелевары имеют здоровье, сравнимое со
@@ -143,7 +144,7 @@ const IntroIndex = () => {
 							отслеживать; - Может потребоваться установить дополнительные
 							аддоны или WeakAura для отслеживания эффекта Пошатывание;
 						</p>
-					</div>
+					</Tab>
 				</div>
 			</div>
 		</div>

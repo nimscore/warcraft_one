@@ -9,7 +9,6 @@ $tab_bg: rgba(
 	$alpha: 1,
 );
 $bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
-$bx_tab: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 
 html,
 body {
@@ -28,6 +27,7 @@ h3 {
 	text-decoration: none;
 	font-weight: inherit;
 	margin: 0;
+	padding: 0;
 }
 
 h1 {
@@ -192,7 +192,7 @@ format-code {
 		//max-height: 96.8vh;
 		overflow: hidden;
 		background-color: $tab_bg;
-		border-radius: 16px;
+		border-radius: 32px;
 		box-shadow: $bx;
 		@media only screen and (max-width: 1440px) {
 			width: calc(100vw - 16vw);
