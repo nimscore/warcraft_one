@@ -16,6 +16,11 @@ const Layout = ({ title, description = "", children }) => {
 					property="og:description"
 					content={description || "Гайды на хмелевара"}
 				/>
+				{/* <script>
+					const whTooltips = (colorLinks={true}, iconizeLinks={true},
+					renameLinks={true});
+				</script> */}
+				<script src="https://wow.zamimg.com/widgets/power.js"></script>
 			</Head>
 
 			<div className="container">

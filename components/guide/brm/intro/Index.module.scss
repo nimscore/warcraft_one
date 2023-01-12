@@ -49,10 +49,19 @@ $bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 				display: flex;
 				.into_content {
 					width: 27vw;
+					display: flex;
 					// margin-right: 33vw;
 				}
 				.img_panda {
-					width: 162px;
+					width: 300px;
+					float: left;
+					margin: -2vw 0 -1vw -2vw;
+				}
+
+				.img_plus {
+					width: 16px;
+					margin-bottom: -0.3vw;
+					margin-right: 0.2vw;
 				}
 			}
 			.line_3 {
@@ -66,6 +75,11 @@ $bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 			justify-content: space-between;
 			width: 25%;
 			margin-top: 24.3vw;
+			.img_minus {
+				width: 16px;
+				margin-bottom: -0.3vw;
+				margin-right: 0.2vw;
+			}
 		}
 	}
 }
