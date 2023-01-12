@@ -47,6 +47,13 @@ $bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 				text-align: center;
 				justify-content: space-between;
 				display: flex;
+				.into_content {
+					width: 27vw;
+					// margin-right: 33vw;
+				}
+				.img_panda {
+					width: 162px;
+				}
 			}
 			.line_3 {
 				text-align: center;
@@ -58,6 +65,7 @@ $bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 			text-align: center;
 			justify-content: space-between;
 			width: 25%;
+			margin-top: 24.3vw;
 		}
 	}
 }
