@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
 
 $body_bg: rgba(
-	$color: #160f28,
+	$color: #252556,
 	$alpha: 0.95,
 );
 $tab_bg: rgba(
-	$color: #201538,
+	$color: #2e2c67,
 	$alpha: 1,
 );
 $bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
@@ -89,6 +89,12 @@ li {
 
 wb {
 	color: #bbb192;
+	font-family: MontserratBold, sans-serif;
+	font-weight: 700;
+}
+
+red {
+	color: #ff0000;
 	font-family: MontserratBold, sans-serif;
 	font-weight: 700;
 }

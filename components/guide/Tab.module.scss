@@ -1,5 +1,5 @@
 $body_bg: rgba(
-	$color: #160f28,
+	$color: #252556,
 	$alpha: 0.95,
 );
 $bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
@@ -7,8 +7,8 @@ $bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 .tab {
 	text-align: left;
 	background-color: $body_bg;
-	border-radius: 8px;
 	padding: 0.6vw;
 	margin: 0 1vw 1vw 0;
 	box-shadow: $bx;
+	// border-radius: 8px;
 }
