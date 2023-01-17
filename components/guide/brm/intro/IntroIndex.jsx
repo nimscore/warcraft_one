@@ -3,8 +3,9 @@ import Link from "next/link";
 import styles from "./Index.module.scss";
 import Tab from "../../Tab";
 import Menu from "../BrewMenu";
+import TabCore from "../../TabCore";
 
-const IntroIndex = () => {
+const ContentIndex = () => {
 	return (
 		<div className={styles.cWcontent}>
 			<Link className={styles.arrow_r} href="/guide/brm/intro/1">
@@ -24,7 +25,7 @@ const IntroIndex = () => {
 					<div className={styles.line_1}></div>
 
 					<div className={styles.line_2}>
-						<Tab>
+						<TabCore>
 							<div className={styles.into_content}>
 								<p>
 									Хмелевар - крайне мобильный танк, который сочетает в себе
@@ -61,62 +62,47 @@ const IntroIndex = () => {
 									alt=""
 								/>
 							</div>
-						</Tab>
+						</TabCore>
 					</div>
 
 					<div className={styles.line_3}>
 						<Tab>
 							<div>
-								<p>{/* <red>СИЛЬНЫЕ СТОРОНЫ:</red> */}</p>
+								<p>
+									<green>СИЛЬНЫЕ СТОРОНЫ:</green>
+								</p>
 								<p>
 									<img className={styles.img_plus} src="/img/add.png" alt="" />
 									Пошатывание, Скрытые резервы, Очищающий отвар и Божественный
 									отвар дают возможность выдерживать огромное количество урона.
 									Кроме того, гарантируют плавное получение урона без резких
 									скачков здоровья;
-									<p>
-										<img
-											className={styles.img_plus}
-											src="/img/add.png"
-											alt=""
-										/>
-										Небесная удача дает преимущество в исцелении перед другими
-										танками;
-									</p>
-									<p>
-										<img
-											className={styles.img_plus}
-											src="/img/add.png"
-											alt=""
-										/>
-										Тигриное рвение, Кувырок и Трансцендентность дают
-										невероятную мобильность, в сравнении с другими танками;
-									</p>
-									<p>
-										<img
-											className={styles.img_plus}
-											src="/img/add.png"
-											alt=""
-										/>
-										Множество способностей для позиционирования противников,
-										таких как: Столкновение, Призыв статуи Черного Быка и Круг
-										мира;
-									</p>
-									<p>
-										<img
-											className={styles.img_plus}
-											src="/img/add.png"
-											alt=""
-										/>
-										Способности для контроля противников, такие как: Круговой
-										удар ногой и Паралич;
-									</p>
+								</p>
+								<p>
+									<img className={styles.img_plus} src="/img/add.png" alt="" />
+									Небесная удача дает преимущество в исцелении перед другими
+									танками;
+								</p>
+								<p>
+									<img className={styles.img_plus} src="/img/add.png" alt="" />
+									Тигриное рвение, Кувырок и Трансцендентность дают невероятную
+									мобильность, в сравнении с другими танками;
+								</p>
+								<p>
+									<img className={styles.img_plus} src="/img/add.png" alt="" />
+									Множество способностей для позиционирования противников, таких
+									как: Столкновение, Призыв статуи Черного Быка и Круг мира;
+								</p>
+								<p>
+									<img className={styles.img_plus} src="/img/add.png" alt="" />
+									Способности для контроля противников, такие как: Круговой удар
+									ногой и Паралич;
 								</p>
 							</div>
 						</Tab>
 						<Tab>
 							<p>
-								<wb>СЛАБЫЕ СТОРОНЫ:</wb>
+								<red>СЛАБЫЕ СТОРОНЫ:</red>
 							</p>
 							<p>
 								<img className={styles.img_minus} src="/img/minus.png" alt="" />
@@ -172,4 +158,4 @@ const IntroIndex = () => {
 	);
 };
 
-export default IntroIndex;
+export default ContentIndex;

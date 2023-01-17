@@ -1,14 +1,25 @@
-$body_bg: rgba(
-	$color: #252556,
-	$alpha: 0.95,
+$bg_gradient: linear-gradient(
+	45deg,
+	rgba(37, 37, 86, 1) 0%,
+	rgba(37, 37, 86, 1) 60%,
+	rgba(71, 55, 165, 1) 120%
 );
 $bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 
 .tab {
 	text-align: left;
-	background-color: $body_bg;
+	background: $bg_gradient;
 	padding: 0.6vw;
 	margin: 0 1vw 1vw 0;
 	box-shadow: $bx;
-	// border-radius: 8px;
+	background: linear-gradient(
+				45deg,
+				rgba(37, 37, 86, 1) 0%,
+				rgba(37, 37, 86, 1) 60%,
+				rgba(71, 55, 165, 1) 120%
+			)
+			padding-box,
+		linear-gradient(30deg, rgba(143, 49, 237, 0.4), transparent) border-box;
+	border: 0.01vw solid transparent;
+	border-radius: 8px;
 }

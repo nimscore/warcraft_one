@@ -1,10 +1,10 @@
 import Layout from "../../../../components/Layout";
-import ContentOne from "../../../../components/guide/brm/intro/ContentOne";
+import IntroOne from "../../../../components/guide/brm/intro/IntroOne";
 
 const PageIntroOne = () => {
 	return (
 		<Layout title="Интро">
-			<ContentOne />
+			<IntroOne />
 		</Layout>
 	);
 };

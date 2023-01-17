@@ -1,10 +1,10 @@
 import Layout from "../../../../components/Layout";
-import ContentIndex from "../../../../components/guide/brm/intro/ContentIndex";
+import IntroIndex from "../../../../components/guide/brm/intro/IntroIndex";
 
 const PageIntroIndex = () => {
 	return (
 		<Layout title="Интро">
-			<ContentIndex />
+			<IntroIndex />
 		</Layout>
 	);
 };

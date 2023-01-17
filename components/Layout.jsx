@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import Script from "next/script";
 
 const Layout = ({ title, description = "", children }) => {
 	return (
@@ -16,11 +17,12 @@ const Layout = ({ title, description = "", children }) => {
 					property="og:description"
 					content={description || "Гайды на хмелевара"}
 				/>
-				{/* <script>
-					const whTooltips = (colorLinks={true}, iconizeLinks={true},
-					renameLinks={true});
-				</script> */}
-				<script src="https://wow.zamimg.com/widgets/power.js"></script>
+				{/* <Script>
+					const whTooltips =
+					{(colorLinks = true), (iconizeLinks = true), (renameLinks = true)};
+				</Script> */}
+
+				<Script src="https://wow.zamimg.com/widgets/power.js"></Script>
 			</Head>
 
 			<div className="container">
