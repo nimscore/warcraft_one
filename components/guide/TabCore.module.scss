@@ -4,7 +4,7 @@ $bg_gradient: radial-gradient(
 	#4435a1 20%,
 	#252556 45%
 );
-$bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
+$bx: 0px 0px 18px -10px rgb(115, 78, 255);
 
 .tab {
 	text-align: left;
@@ -19,7 +19,7 @@ $bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 				#252556 45%
 			)
 			padding-box,
-		linear-gradient(90deg, rgba(143, 49, 237, 0.4), transparent) border-box;
+		linear-gradient(90deg, rgba(115, 78, 255, 0.4), transparent) border-box;
 	border: 0.01vw solid transparent;
 	border-radius: 8px;
 }

@@ -4,7 +4,7 @@ $bg_gradient: linear-gradient(
 	rgba(37, 37, 86, 1) 60%,
 	rgba(71, 55, 165, 1) 120%
 );
-$bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
+$bx: 0px 0px 18px -10px rgb(115, 78, 255);
 
 .tab {
 	text-align: left;
@@ -14,12 +14,12 @@ $bx: 0 0 0.6vw 0.01vw rgba(0, 0, 0, 0.6);
 	box-shadow: $bx;
 	background: linear-gradient(
 				45deg,
-				rgba(37, 37, 86, 1) 0%,
-				rgba(37, 37, 86, 1) 60%,
-				rgba(71, 55, 165, 1) 120%
+				rgba(37, 37, 86, .96) 0%,
+				rgba(37, 37, 86, .96) 60%,
+				rgba(71, 55, 165, .96) 120%
 			)
 			padding-box,
-		linear-gradient(30deg, rgba(143, 49, 237, 0.4), transparent) border-box;
+		linear-gradient(30deg, rgba(115, 78, 255, 0.4), transparent) border-box;
 	border: 0.01vw solid transparent;
 	border-radius: 8px;
 }

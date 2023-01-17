@@ -8,9 +8,6 @@ import TabCore from "../../TabCore";
 const ContentIndex = () => {
 	return (
 		<div className={styles.cWcontent}>
-			<Link className={styles.arrow_r} href="/guide/brm/intro/1">
-				<Image src="/img/arrow.png" width={32} height={32} alt="arrow" />
-			</Link>
 
 			<div className={styles.guide_content}>
 				<div className={styles.r_space}>
@@ -36,11 +33,11 @@ const ContentIndex = () => {
 									хорошо показывает себя в рейдах самых высоких уровней.
 									Поговорим о самом главном и самом непонятном в хмелеваре, о
 									том что делает хмелевара именно таким, какой он есть -
-									<a href="https://ru.wowhead.com/spell=115069/"></a>. Это
+									<a href="https://ru.wowhead.com/spell=115069/"> пошатывание </a>. Это
 									одновременно и дар и проклятье хмелевара, т.к. оно дает
 									возможность переживать огромное количество единоразового
 									урона, но при продолжительном высоком входящем уроне само же
-									вас убьет. <a href="https://ru.wowhead.com/spell=115069/"></a>
+									вас убьет. <a href="https://ru.wowhead.com/spell=115069/"> Пошатывание </a>
 									откладывает основную часть получаемого урона в уникальный
 									эффект пошатывания, который в дальнейшем можно снять другими
 									вашими способностями. Механика откладывания урона в эффект
@@ -48,11 +45,11 @@ const ContentIndex = () => {
 									всегда желанным танком в рейдах любой сложности и эпохальных
 									подземельях. Кроме того, хмелевар обладает высокой полезностью
 									для рейда, во-первых, благодаря уникальному эффекту монаха
-									<a href="https://ru.wowhead.com/spell=8647"></a>, а во-вторых,
+									<a href="https://ru.wowhead.com/spell=8647"> таинственное прикосновение </a>, а во-вторых,
 									за счёт невероятной мобильности. Слабой стороной Хмелевара
 									являются невысокие показатели самоисцеления и низкий объем
 									здоровья. Однако,
-									<a href="https://ru.wowhead.com/spell=216519"></a> несколько
+									<a href="https://ru.wowhead.com/spell=216519"> небесная удача </a> несколько
 									компенсирует это в совместных активностях, где обычно на вас
 									накладываются исцеляющие эффекты (хоты) от лекарей.
 								</p>
@@ -139,6 +136,12 @@ const ContentIndex = () => {
 				</div>
 
 				<div className={styles.l_space}>
+				<Link className={styles.arrow_l} href="/guide/brm/intro/1">
+				<img src="/img/arrow.png" alt="arrow" />
+			</Link>
+				<Link className={styles.arrow_r} href="/guide/brm/intro/1">
+				<img src="/img/arrow.png" alt="arrow" />
+			</Link>
 					<Tab>
 						<p>
 							Lorrgs – удобный сайт для быстрого анализа бурстов и кулдаунов на
