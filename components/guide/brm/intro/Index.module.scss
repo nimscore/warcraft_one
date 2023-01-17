@@ -27,7 +27,10 @@
 	.guide_content {
 		display: flex;
 		.r_space {
-			width: 72%;
+			width: 73.6%;
+			@media only screen and (max-width: 1440px) {
+				width: 72%;
+			}
 			.line_1 {
 				text-align: center;
 				justify-content: space-between;
@@ -43,10 +46,13 @@
 					// margin-right: 33vw;
 				}
 				.img_panda {
-					width: 250px;
+					width: 420px;
 					float: left;
-					margin: -2vw 0 -1vw -2vw;
+					// margin: -2vw 0 -1vw -2vw;
 					margin: 1vw;
+					@media only screen and (max-width: 1440px) {
+						width: 250px;
+					}
 				}
 			}
 			.line_3 {
