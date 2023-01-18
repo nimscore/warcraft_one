@@ -2,18 +2,22 @@
 	margin: 1vw 0 1vw 1vw;
 	.head_page {
 		display: flex;
-		width: 100%;
+		width: 77%;
 		text-align: center;
 		justify-content: space-between;
 	}
 
 	.guide_content {
 		display: flex;
+		position: fixed;
+		bottom: 1vw;
+		// justify-content: center;
+		align-items: flex-end;
 		.r_space {
-			width: 73.6%;
-			@media only screen and (max-width: 1440px) {
-				width: 72%;
-			}
+			width: 76%;
+			// @media only screen and (max-width: 1440px) {
+			// 	width: 77%;
+			// }
 			.line_1 {
 				text-align: center;
 				justify-content: space-between;
@@ -62,12 +66,7 @@
 			}
 		}
 		.l_space {
-			position: fixed;
-			text-align: center;
-			justify-content: space-between;
 			width: 23%;
-			bottom: 1vw;
-			right: 1vw;
 
 			.arrow_l {
 				> picture {

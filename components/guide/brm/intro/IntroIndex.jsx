@@ -8,16 +8,16 @@ import TabCore from "../../TabCore";
 const ContentIndex = () => {
 	return (
 		<div className={styles.cWcontent}>
+			<div className={styles.head_page}>
+				<Tab>
+					<h2>Введение</h2>
+				</Tab>
+				<Tab>
+					<Menu />
+				</Tab>
+			</div>
 			<div className={styles.guide_content}>
 				<div className={styles.r_space}>
-					<div className={styles.head_page}>
-						<Tab>
-							<h2>Введение</h2>
-						</Tab>
-						<Tab>
-							<Menu />
-						</Tab>
-					</div>
 					<div className={styles.line_1}></div>
 
 					<div className={styles.line_2}>
@@ -139,29 +139,6 @@ const ContentIndex = () => {
 									</picture>
 									Способности для контроля противников, такие как: Круговой удар
 									ногой и Паралич;
-								</p>
-								<p>
-									<picture>
-										<img
-											className={styles.img_plus}
-											src="/img/add.png"
-											alt=""
-										/>
-									</picture>
-									Уникальные ауры, которые действуют на союзников: Близко к
-									сердцу, Щедрая доля и Стремительность;
-								</p>
-								<p>
-									<picture>
-										<img
-											className={styles.img_plus}
-											src="/img/add.png"
-											alt=""
-										/>
-									</picture>
-									Бурстовый урон. У хмелеваров теперь есть большое количество
-									атакующих способностей и они невероятно хороши в нанесении
-									бурстового АоЕ-урона;
 								</p>
 							</div>
 						</Tab>
