@@ -9,6 +9,7 @@ const Layout = ({ title, description = "", children }) => {
 			<Head>
 				<title>{title} | MONK HUB</title>
 				<link rel="icon" href="/img/logo.png" type="image/png" />
+
 				<meta
 					name="description"
 					content={description || "Гайды на хмелевара"}
@@ -17,61 +18,77 @@ const Layout = ({ title, description = "", children }) => {
 					property="og:description"
 					content={description || "Гайды на хмелевара"}
 				/>
-				{/* <Script>
-					const whTooltips =
-					{(colorLinks = true), (iconizeLinks = true), (renameLinks = true)};
-				</Script> */}
-
-				<Script src="https://wow.zamimg.com/widgets/power.js"></Script>
 			</Head>
 
 			<div className="container">
 				<div className="containerMain">
 					<Link className="logo" href="/">
-						<img src="/img/logo4.png" alt="logo" />
+						<picture>
+							<img src="/img/logo4.png" alt="logo" />
+						</picture>
 					</Link>
 					<div className="main_ul">
 						<div>
-							<img src="/img/overview.png" alt="overview" />
+							<picture>
+								<img src="/img/overview.png" alt="overview" />
+							</picture>
 							<Link href="/">Overview</Link>
 						</div>
 						<div>
-							<img src="/img/guide.png" alt="guide" />
+							<picture>
+								<img src="/img/guide.png" alt="guide" />
+							</picture>
 							<Link href="/guide/brm/intro">Brewmaster</Link>
 						</div>
 						<div>
-							<img src="/img/mastodon.png" alt="mastodon" />
+							<picture>
+								<img src="/img/mastodon.png" alt="mastodon" />
+							</picture>
 							<Link href="https://toot.warcraft.one/about">Mastodon</Link>
 						</div>
 						<div>
-							<img src="/img/discord.png" alt="discord" />
+							<picture>
+								<img src="/img/discord.png" alt="discord" />
+							</picture>
 							<Link href="https://discord.gg/cCsfEzc">Discord</Link>
 						</div>
 					</div>
 					<div className="off_ul">
-						<img className="avatar" src="/img/avatar.png" alt="avatar" />
+						<picture>
+							<img className="avatar" src="/img/avatar.png" alt="avatar" />
+						</picture>
 						<p>Nims</p>
 						<div className="author_info">
 							<div>
-								<img src="/img/donate.png" alt="donate" />
+								<picture>
+									<img src="/img/donate.png" alt="donate" />
+								</picture>
 								<Link href="https://boosty.to/nims">Boosty</Link>
 							</div>
 							<div>
-								<img src="/img/donate.png" alt="donate" />
+								<picture>
+									<img src="/img/donate.png" alt="donate" />
+								</picture>
 								<Link href="https://www.donationalerts.com/r/nimsi">
 									DonationAlerts
 								</Link>
 							</div>
 							<div>
-								<img src="/img/discord.png" alt="discord" />
+								<picture>
+									<img src="/img/discord.png" alt="discord" />
+								</picture>
 								<Link href="https://discord.com">Nims#1892</Link>
 							</div>
 							<div>
-								<img src="/img/mastodon.png" alt="mastodon" />
+								<picture>
+									<img src="/img/mastodon.png" alt="mastodon" />
+								</picture>
 								<Link href="https://toot.warcraft.one/@nims">@nims</Link>
 							</div>
 							<div>
-								<img src="/img/about.png" alt="about" />
+								<picture>
+									<img src="/img/about.png" alt="about" />
+								</picture>
 								<Link href="/">About</Link>
 							</div>
 						</div>
@@ -81,6 +98,7 @@ const Layout = ({ title, description = "", children }) => {
 
 				<div className="containerWindow">{children}</div>
 			</div>
+			<Script src="https://wow.zamimg.com/widgets/power.js"></Script>
 		</>
 	);
 };

@@ -8,7 +8,6 @@ import TabCore from "../../TabCore";
 const ContentIndex = () => {
 	return (
 		<div className={styles.cWcontent}>
-
 			<div className={styles.guide_content}>
 				<div className={styles.r_space}>
 					<div className={styles.head_page}>
@@ -33,11 +32,18 @@ const ContentIndex = () => {
 									хорошо показывает себя в рейдах самых высоких уровней.
 									Поговорим о самом главном и самом непонятном в хмелеваре, о
 									том что делает хмелевара именно таким, какой он есть -
-									<a href="https://ru.wowhead.com/spell=115069/"> пошатывание </a>. Это
-									одновременно и дар и проклятье хмелевара, т.к. оно дает
+									<a href="https://ru.wowhead.com/spell=115069/">
+										{" "}
+										пошатывание{" "}
+									</a>
+									. Это одновременно и дар и проклятье хмелевара, т.к. оно дает
 									возможность переживать огромное количество единоразового
 									урона, но при продолжительном высоком входящем уроне само же
-									вас убьет. <a href="https://ru.wowhead.com/spell=115069/"> Пошатывание </a>
+									вас убьет.{" "}
+									<a href="https://ru.wowhead.com/spell=115069/">
+										{" "}
+										Пошатывание{" "}
+									</a>
 									откладывает основную часть получаемого урона в уникальный
 									эффект пошатывания, который в дальнейшем можно снять другими
 									вашими способностями. Механика откладывания урона в эффект
@@ -45,19 +51,28 @@ const ContentIndex = () => {
 									всегда желанным танком в рейдах любой сложности и эпохальных
 									подземельях. Кроме того, хмелевар обладает высокой полезностью
 									для рейда, во-первых, благодаря уникальному эффекту монаха
-									<a href="https://ru.wowhead.com/spell=8647"> таинственное прикосновение </a>, а во-вторых,
-									за счёт невероятной мобильности. Слабой стороной Хмелевара
-									являются невысокие показатели самоисцеления и низкий объем
-									здоровья. Однако,
-									<a href="https://ru.wowhead.com/spell=216519"> небесная удача </a> несколько
-									компенсирует это в совместных активностях, где обычно на вас
-									накладываются исцеляющие эффекты (хоты) от лекарей.
+									<a href="https://ru.wowhead.com/spell=8647">
+										{" "}
+										таинственное прикосновение{" "}
+									</a>
+									, а во-вторых, за счёт невероятной мобильности. Слабой
+									стороной Хмелевара являются невысокие показатели самоисцеления
+									и низкий объем здоровья. Однако,
+									<a href="https://ru.wowhead.com/spell=216519">
+										{" "}
+										небесная удача{" "}
+									</a>{" "}
+									несколько компенсирует это в совместных активностях, где
+									обычно на вас накладываются исцеляющие эффекты (хоты) от
+									лекарей.
 								</p>
-								<img
-									className={styles.img_panda}
-									src="/img/barrel.png"
-									alt=""
-								/>
+								<picture>
+									<img
+										className={styles.img_panda}
+										src="/img/barrel.png"
+										alt="barrel"
+									/>
+								</picture>
 							</div>
 						</TabCore>
 					</div>
@@ -69,40 +84,84 @@ const ContentIndex = () => {
 									<green>СИЛЬНЫЕ СТОРОНЫ:</green>
 								</p>
 								<p>
-									<img className={styles.img_plus} src="/img/add.png" alt="" />
+									<picture>
+										<img
+											className={styles.img_plus}
+											src="/img/add.png"
+											alt=""
+										/>
+									</picture>
 									Пошатывание, Скрытые резервы, Очищающий отвар и Божественный
 									отвар дают возможность выдерживать огромное количество урона.
 									Кроме того, гарантируют плавное получение урона без резких
 									скачков здоровья;
 								</p>
 								<p>
-									<img className={styles.img_plus} src="/img/add.png" alt="" />
+									<picture>
+										<img
+											className={styles.img_plus}
+											src="/img/add.png"
+											alt=""
+										/>
+									</picture>
 									Небесная удача дает преимущество в исцелении перед другими
 									танками;
 								</p>
 								<p>
-									<img className={styles.img_plus} src="/img/add.png" alt="" />
+									<picture>
+										<img
+											className={styles.img_plus}
+											src="/img/add.png"
+											alt=""
+										/>
+									</picture>
 									Тигриное рвение, Кувырок и Трансцендентность дают невероятную
 									мобильность, в сравнении с другими танками;
 								</p>
 								<p>
-									<img className={styles.img_plus} src="/img/add.png" alt="" />
+									<picture>
+										<img
+											className={styles.img_plus}
+											src="/img/add.png"
+											alt=""
+										/>
+									</picture>
 									Множество способностей для позиционирования противников, таких
 									как: Столкновение, Призыв статуи Черного Быка и Круг мира;
 								</p>
 								<p>
-									<img className={styles.img_plus} src="/img/add.png" alt="" />
+									<picture>
+										<img
+											className={styles.img_plus}
+											src="/img/add.png"
+											alt=""
+										/>
+									</picture>
 									Способности для контроля противников, такие как: Круговой удар
 									ногой и Паралич;
 								</p>
 								<p>
-									<img className={styles.img_plus} src="/img/add.png" alt="" />
-									Уникальные ауры, которые действуют на союзников: Близко к сердцу, Щедрая доля и Стремительность;
+									<picture>
+										<img
+											className={styles.img_plus}
+											src="/img/add.png"
+											alt=""
+										/>
+									</picture>
+									Уникальные ауры, которые действуют на союзников: Близко к
+									сердцу, Щедрая доля и Стремительность;
 								</p>
-								
 								<p>
-									<img className={styles.img_plus} src="/img/add.png" alt="" />
-									Бурстовый урон. У хмелеваров теперь есть большое количество атакующих способностей и они невероятно хороши в нанесении бурстового АоЕ-урона;
+									<picture>
+										<img
+											className={styles.img_plus}
+											src="/img/add.png"
+											alt=""
+										/>
+									</picture>
+									Бурстовый урон. У хмелеваров теперь есть большое количество
+									атакующих способностей и они невероятно хороши в нанесении
+									бурстового АоЕ-урона;
 								</p>
 							</div>
 						</Tab>
@@ -111,23 +170,47 @@ const ContentIndex = () => {
 								<red>СЛАБЫЕ СТОРОНЫ:</red>
 							</p>
 							<p>
-								<img className={styles.img_minus} src="/img/minus.png" alt="" />
+								<picture>
+									<img
+										className={styles.img_minus}
+										src="/img/minus.png"
+										alt=""
+									/>
+								</picture>
 								Количество здоровья. Хмелевары имеют здоровье, сравнимое со
 								здоровьем некоторых дпс классов. Это делает его уязвимым к
 								продолжительному урону от магии и постоянному урону от дебафов;
 							</p>
 							<p>
-								<img className={styles.img_minus} src="/img/minus.png" alt="" />
+								<picture>
+									<img
+										className={styles.img_minus}
+										src="/img/minus.png"
+										alt=""
+									/>
+								</picture>
 								Низкое самоисцеление. Дар быка и Устранение вреда призваны это
 								исправить, но этого не всегда хватает;
 							</p>
 							<p>
-								<img className={styles.img_minus} src="/img/minus.png" alt="" />
+								<picture>
+									<img
+										className={styles.img_minus}
+										src="/img/minus.png"
+										alt=""
+									/>
+								</picture>
 								Требование к большому количеству привязки горячих клавиш
 								(биндов), которые необходимо отслеживать;
 							</p>
 							<p>
-								<img className={styles.img_minus} src="/img/minus.png" alt="" />
+								<picture>
+									<img
+										className={styles.img_minus}
+										src="/img/minus.png"
+										alt=""
+									/>
+								</picture>
 								Может потребоваться установить дополнительные аддоны или
 								WeakAura для отслеживания эффекта Пошатывание;
 							</p>
@@ -136,12 +219,16 @@ const ContentIndex = () => {
 				</div>
 
 				<div className={styles.l_space}>
-				<Link className={styles.arrow_l} href="/guide/brm/intro/1">
-				<img src="/img/arrow.png" alt="arrow" />
-			</Link>
-				<Link className={styles.arrow_r} href="/guide/brm/intro/1">
-				<img src="/img/arrow.png" alt="arrow" />
-			</Link>
+					<Link className={styles.arrow_l} href="/guide/brm/intro/1">
+						<picture>
+							<img src="/img/arrow.png" alt="arrow" />
+						</picture>
+					</Link>
+					<Link className={styles.arrow_r} href="/guide/brm/intro/1">
+						<picture>
+							<img src="/img/arrow.png" alt="arrow" />
+						</picture>
+					</Link>
 					<Tab>
 						<p>
 							Lorrgs – удобный сайт для быстрого анализа бурстов и кулдаунов на
